@@ -17,7 +17,15 @@ ollama pull llama3
 3. Create and activate a Python virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# For bash/zsh:
+source venv/bin/activate
+
+# For fish shell:
+source venv/bin/activate.fish
+
+# On Windows:
+venv\Scripts\activate
 ```
 
 4. Install dependencies:
