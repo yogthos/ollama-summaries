@@ -24,13 +24,9 @@ source venv/bin/activate
 # For fish shell:
 source venv/bin/activate.fish
 
-# On Windows:
-venv\Scripts\activate
-```
-
 4. Install dependencies:
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 5. Create a .env file to specify your model:
